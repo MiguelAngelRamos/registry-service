@@ -1,0 +1,9 @@
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost
+  # el valor de las propiedades quedan falso, pro que este el servidor son los microservicios que deben registrarse en eureka
+  client:
+    register-with-eureka: false
+    fetch-registry: false
